@@ -34,26 +34,18 @@ Download from Kaggle:
 
 ## Create virtual environment:
 
-bash
-Copy code
 python -m venv .venv
 source .venv/Scripts/activate  # Windows
 Install dependencies:
 
-bash
-Copy code
 pip install -r requirements.txt
 
 ## How to Run the Project
 1. Add dataset
 Put the dataset file inside:
-
-bash
-Copy code
 data/raw/
-2. Run training
-bash
-Copy code
+
+3. Run training
 python src/train.py
 This will:
 
