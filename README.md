@@ -59,15 +59,15 @@ Save outputs into artifacts/
 ## Outputs Generated
 After running train.py, 
 
-File                 Descriptions
+File                                                                 Descriptions
 
-model.pkl	           Final trained model
+model.pkl	                                                           Final trained model
 
-preprocessor.pkl	   Scaler + OneHotEncoder pipeline
+preprocessor.pkl	                                                   Scaler + OneHotEncoder pipeline
 
-metrics.json	       Accuracy, Precision, Recall, F1, AUC
+metrics.json	                                                       Accuracy, Precision, Recall, F1, AUC
 
-shap_summary.png	   Feature importance visualization
+shap_summary.png	                                                   Feature importance visualization
 
 ## Explainability Using SHAP
 The project uses SHAP values to understand:
