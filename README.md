@@ -57,9 +57,10 @@ Generate SHAP explainability plot
 Save outputs into artifacts/
 
 ## Outputs Generated
-After running train.py, you will get:
+After running train.py, 
 
-File	Description
+File And There Descriptions
+
 model.pkl	Final trained model
 preprocessor.pkl	Scaler + OneHotEncoder pipeline
 metrics.json	Accuracy, Precision, Recall, F1, AUC
