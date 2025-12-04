@@ -71,15 +71,25 @@ shap_summary.png	   | Feature importance visualization
 
 ## Explainability Using SHAP
 The project uses SHAP values to understand:
+
 Which features have the strongest effect on attrition
+
 Whether features increase or decrease likelihood of leaving
+
 This improves model transparency for HR decision-makers.
 
 ## Tech Stack
+
 Python 3.11+
+
 Pandas, NumPy
+
 Scikit-learn
+
 imbalanced-learn (SMOTE)
+
 SHAP
+
 Matplotlib/Seaborn
+
 Jupyter Notebook
